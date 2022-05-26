@@ -20,7 +20,7 @@ from setuptools import setup, find_packages
 with open(os.path.join("codon_usage_data", "version.txt"), "r") as f:
     __version__ = f.read()
 
-with open(os.path.join("python_codon_tables", "README.rst"), "r") as f:
+with open(os.path.join("../python_codon_tables", "README.rst"), "r") as f:
     long_description = f.read()
 
 setup(
