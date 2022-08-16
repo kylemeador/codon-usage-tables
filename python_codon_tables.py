@@ -13,7 +13,7 @@ else:
     urlopen = urllib2.urlopen
 
 _this_dir = os.path.dirname(os.path.realpath(__file__))
-_tables_dir = os.path.join(_this_dir, "..", "codon_usage_data", "tables")
+_tables_dir = os.path.join(_this_dir, "codon_usage_data", "tables")
 
 available_codon_tables_names = [filename[:-4] for filename in os.listdir(_tables_dir)]
 
